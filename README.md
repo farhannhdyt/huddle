@@ -45,6 +45,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/farhannhdyt/huddle)
+- Demo URL: [huddle-demo](https://huddle-demo.vercel.app/)
 
 ## My process
 
