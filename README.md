@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# Frontend Mentor - Huddle landing page with alternating feature blocks solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to the [Huddle landing page with alternating feature blocks challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [Installation](#installation)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-### `yarn start`
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Installation
 
-### `yarn test`
+Install dependencies
+```
+npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Running
+```
+npm start
+```
 
-### `yarn build`
+### The challenge
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Users should be able to:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Screenshot
 
-### `yarn eject`
+![](./public/images/screenshot.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Links
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## My process
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Built with
 
-## Learn More
+- Semantic HTML5 markup
+- Flexbox
+- CSS Grid
+- Mobile Responsive
+- [React](https://reactjs.org/) - JS library
+- [Styled Components](https://styled-components.com/) - For styles
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### What I learned
 
-### Code Splitting
+in this project, I use react js and styled components as a medium to design components easily and quickly.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Here an example of styled-components syntax 👇
 
-### Analyzing the Bundle Size
+```html
+<h1>Example Heading</h1>
+```
+```js
+// import styled from 'styled-component
+export const Heading = styled.h1`
+  font-size: 20px;
+  color: blue;
+`
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```js
+// import { Heading } from 'styled.js'
+<Heading>Example Component</Heading>
+```
 
-### Making a Progressive Web App
+From the example above, we used the styled-component to change the size and color of the h1. By using styled-component it will be easier to design the component and maintain it.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+### Useful resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- [React JS](https://reactjs.org/) - This helped me for building user-interface in an easy way. I really liked this library and will use it going forward.
+- [Styled Components](https://styled-components.com/) - Styled Components is a tools that helped me to styling components with actuall CSS code in JavaScript. I'd recommend it to anyone who want to styling a component in React with this tool.
 
-### Deployment
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Website - [Farhan Nur Hidayat (Github)](https://github.com/farhannhdyt)
+- Frontend Mentor - [@farhannhdyt](https://www.frontendmentor.io/profile/farhannhdyt)
+- Instagram - [@farhaanhdytt](https://www.instagram.com/farhaanhdytt)
